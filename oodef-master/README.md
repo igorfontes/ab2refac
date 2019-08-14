@@ -18,7 +18,7 @@ O TEMPLATE METHOD foi usado na classe abstrata Funcionario com a implementação
 
 - O método calcBonus criado no template foi usado na classe Salario no método chamado addBonus.
 
-O COMMAND PATTERN foi usado para fazer o menu na classe main, usando as classes Command e RemoteControl (para vincular as funcionalidades selecionadas pelo usuário aos comandos); 
+O COMMAND PATTERN foi usado para fazer o menu, usando as classes Menu, Command e RemoteControl (para vincular as funcionalidades selecionadas pelo usuário aos comandos); 
 
 O FACTORY METHOD foi implementado por meio da classe FuncionarioFactory, sendo usado para gerenciar a criação de instâncias de funcionários dos diversos tipos de modo mais eficiente e não repetitivo. O método criado na classe factory foi usado nos métodos addFunc e mudaDados da classe Gerencia;
 
